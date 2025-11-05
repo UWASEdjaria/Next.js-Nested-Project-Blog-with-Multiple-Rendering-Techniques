@@ -26,7 +26,7 @@ export default function RootLayout({
         <nav className="flex gap-6">
           <Link href='/'>Home</Link>
           <Link
-                href='/About'
+                href='/about'
              className="text-purple-400 hover:text-purple-600 font-semibold transition-colors">About
           </Link>
           <Link
