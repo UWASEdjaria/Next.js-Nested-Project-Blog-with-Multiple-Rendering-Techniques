@@ -36,6 +36,7 @@ export default function RootLayout({
 
         </nav>
         </header>
+         <footer className="mt-4 text-center">© 2025 My Blog</footer>
         {children}
       </body>
     </html>
