@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className="flex min-h-screen flex-col items-center justify-center bg-gray-100 p-4">
+        className="flex min-h-screen flex-col  bg-gray-100 p-4">
 
       <header className="w-full bg-black p-4 rounded-md flex items-center justify-between">
         
@@ -36,8 +36,10 @@ export default function RootLayout({
 
         </nav>
         </header>
-         <footer className="mt-4 text-center">© 2025 My Blog</footer>
-        {children}
+        <main className="flex-1"> {children}</main>
+       
+         <footer className="text-center text-white py-6 border-t border-purple-800">© 2025 My Blog</footer>
+        
       </body>
     </html>
   );
