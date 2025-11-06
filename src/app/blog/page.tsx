@@ -20,7 +20,7 @@ export default async function BlogPage() {
     <div className="flex flex-col justify-center items-center min-h-screen">
       <h1 className="text-2xl font-bold text-purple-600 m-5">Blog posts</h1>
       {posts.map((post)=>(
-        <Link key={post.id} href={`/blogDetails/$[id]`}
+        <Link key={post.id} href={`/blogDetails/${post.id}`}
         className='bg-gray-800 border border-purple-400 p-4 m-2 rounded-lg w-full md:w-3/4 shadow-lg'>
           <h2 className=' text-white text-center font-bold italic p-1'>{post.title}</h2>
           <p className='text-gray-400'>{post.body}</p>
