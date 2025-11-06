@@ -16,7 +16,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen gap-6 p-4 bg-gray-100">
+      <body className="flex flex-col min-h-screen gap-4 p-4 bg-gray-100 sm:flex-row sm:gap-6 sm:p-6">
+
         {/* Header */}
         <header className="flex flex-row items-center justify-between w-full p-4 bg-black border border-purple-400 rounded-lg">
           <h1 className="text-2xl font-bold text-purple-400 sm">Nested Blog</h1>

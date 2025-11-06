@@ -21,7 +21,7 @@ export default async function BlogPage() {
     <div className="flex flex-col min-h-screen gap-6 p-4 md:flex-row">
       {/* Sidebar on the left */}
       <aside className="p-4 text-white bg-gray-900 rounded-lg md:w-1/4">
-        <p  className='p-4 m-4 font-bold text-center'>Categories</p>
+        <p className='p-4 m-4 font-bold text-center'>Categories</p>
         <p className='p-4 m-4 font-bold text-center'>Tech</p>
         <p  className='p-4 m-4 font-bold text-center'>LifeStyle</p>
         <p  className='p-4 m-4 font-bold text-center'>Education</p>

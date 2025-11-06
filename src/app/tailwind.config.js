@@ -16,7 +16,7 @@ const config = {
       "light",
       "dark",
       {
-        djariaTheme: {
+        Theme: {
           "primary": "#7c3aed",
           "secondary": "#22d3ee",
           "accent": "#fcd34d",
