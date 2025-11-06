@@ -14,6 +14,7 @@ app/
 │ └── page.tsx # About page
 └── blog/
 ├── page.tsx # Blog list page
+├──Blog Details/
 └── [id]/
 └── page.tsx # Dynamic blog page (/blog/1, /blog/2, etc.)
 ---
