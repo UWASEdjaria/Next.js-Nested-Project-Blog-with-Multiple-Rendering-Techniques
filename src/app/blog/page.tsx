@@ -1,6 +1,6 @@
 import React from 'react'
 
-function page() {
+function Blog() {
   return (
     <div className="flex flex-col justify-center items-center min-h-screen">
       <h1 className="text-2xl font-bold text-purple-600">Latest Posts</h1>
@@ -9,4 +9,4 @@ function page() {
   )
 }
 
-export default page
+export default Blog
