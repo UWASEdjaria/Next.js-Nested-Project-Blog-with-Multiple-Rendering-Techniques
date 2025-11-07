@@ -1,67 +1,23 @@
-# Nested Blog with Next.js
+# Project with Multiple Rendering Methods
 
-A blog website built using **Next.js App Router** demonstrating different rendering techniques and nested layouts.  
-This project includes a **dynamic blog page**, **nested layouts**, **categories sidebar**, and uses **Tailwind CSS** for styling.
+This project demonstrates a Next.js application that uses various rendering methods:
 
----
+- **Home Page (CSR):** Client-Side Rendering for the clock component.
+- **About Page (SSR):** Server-Side Rendering to fetch and display user data.
+- **Blog Page (SSG):** Static Site Generation for a list of blog posts.
+- **Blog Detail Page (ISR):** Incremental Static Regeneration for individual blog posts.
 
-## 📂 Folder Structure
+## Getting Started
 
-app/
-├── layout.tsx # Root layout with header and footer
-├── page.tsx # Home page
-├── about/
-│ └── page.tsx # About page
-└── blog/
-├── page.tsx # Blog list page
-├──Blog Details/
-└── [id]/
-└── page.tsx # Dynamic blog page (/blog/1, /blog/2, etc.)
----
-
-## ⚡ Features
-
-- **Dynamic Routes:** `/blog/[id]` displays blog by ID  
-- **Rendering Techniques:**  
-  - Client-Side Rendering (CSR)  
-  - Server-Side Rendering (SSR)  
-  - Static Site Generation (SSG)  
-  - Incremental Static Regeneration (ISR)  
-- **Nested Layouts:** Separate layout for blog pages with sidebar  
-- **Responsive Design:** Works on mobile, tablet, and desktop  
-- **Theme:** Purple & black color scheme with Tailwind CSS  
-
----
-
-## 🛠️ Installation
-
-1. Clone the repository:
+First, run the development server:
 
 ```bash
-git clone <your-repo-link>
-cd <project-folder>
-Install dependencies:
-
-bash
-Copy code
-npm install
-# or
-yarn
-Start the development server:
-
-bash
-Copy code
 npm run dev
 # or
 yarn dev
-Open http://localhost:3000 in your browser.
+# or
+pnpm dev
+```
 
-📄 Usage
-Home page: /
-
-About page: /about
-
-Blog list page: /blog
-
-Dynamic blog page: /blog/1, /blog/2, etc.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
